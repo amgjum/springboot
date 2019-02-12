@@ -1,0 +1,21 @@
+spring:
+  thymeleaf:
+    mode: HTML5
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: hpti
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none  #默认不根据class建立表
+      show-sql: true
+  jackson:
+    date-format: yyyy-MM-dd
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
