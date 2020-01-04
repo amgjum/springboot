@@ -15,6 +15,8 @@ import java.util.Map;
 public class DemoApplication {
 
 	public static void main(String[] args) {
+		String aj ="aj";
+		String ajj="ajj";
 
 		String s = "{\"name\":\"amgjum\",\"pwd\":\"123\"}";
 		try {
