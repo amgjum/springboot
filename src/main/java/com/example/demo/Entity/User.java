@@ -10,6 +10,8 @@ import java.util.Date;
 @Entity
 @Table(name="user")
 public class User {
+    private String test;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     //@ApiModelProperty(hidden=true)
