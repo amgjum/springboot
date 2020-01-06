@@ -19,6 +19,7 @@ public class DemoApplication {
 
 		String name="aj"; 
 		String h1="h1";	
+		String h2="h2";	
 
 		String s = "{\"name\":\"amgjum\",\"pwd\":\"123\"}";
 		try {
