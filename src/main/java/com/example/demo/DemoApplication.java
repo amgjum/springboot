@@ -17,6 +17,8 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		
 
+		String name="aj" 
+
 		String s = "{\"name\":\"amgjum\",\"pwd\":\"123\"}";
 		try {
 			User user = (new ObjectMapper()).readValue(s,User.class);
