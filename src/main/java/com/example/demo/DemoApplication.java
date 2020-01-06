@@ -24,6 +24,8 @@ public class DemoApplication {
 
 		String s = "{\"name\":\"amgjum\",\"pwd\":\"123\"}";
 		try {
+
+			String develop ="develop";
 			User user = (new ObjectMapper()).readValue(s,User.class);
 			Map m = (new ObjectMapper()).readValue(s,Map.class);
 			System.out.println(m);
