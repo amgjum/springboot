@@ -26,6 +26,7 @@ public class DemoApplication {
 		try {
 
 			String develop ="develop";
+			String develop2 ="develop2";
 			User user = (new ObjectMapper()).readValue(s,User.class);
 			Map m = (new ObjectMapper()).readValue(s,Map.class);
 			System.out.println(m);
