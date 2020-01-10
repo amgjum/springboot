@@ -15,11 +15,18 @@ import java.util.Map;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		String aj ="aj";
-		String ajj="ajj";
+		
+
+		String name="aj"; 
+		String h1="h1";	
+		String h2="h2";	
+		String h3="h3";	
 
 		String s = "{\"name\":\"amgjum\",\"pwd\":\"123\"}";
 		try {
+
+			String develop ="develop";
+			String develop2 ="develop2";
 			User user = (new ObjectMapper()).readValue(s,User.class);
 			Map m = (new ObjectMapper()).readValue(s,Map.class);
 			System.out.println(m);
